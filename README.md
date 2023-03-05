@@ -74,15 +74,19 @@
 
 ### 2.部署截图
 
+![用户端部署截图](https://github.com/imrewang/StudentManagementSystem/blob/main/screenshot/%E5%AE%A2%E6%88%B7%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%88%AA%E5%9B%BE.png?raw=true)
 
 ## （三）运行截图
 
+![运行截图1](https://github.com/imrewang/StudentManagementSystem/blob/main/screenshot/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE1.png?raw=true)
+
+![运行截图2](https://github.com/imrewang/StudentManagementSystem/blob/main/screenshot/%E5%AE%A2%E6%88%B7%E7%AB%AF%E8%BF%90%E8%A1%8C%E6%88%AA%E5%9B%BE2.png?raw=true)
 
 ## （四）总结
 
 ### 1.TCP网络的连接问题
 
-服务端：
+**服务端：**
 
 网络环境初始化：WSAStartup
 
@@ -102,7 +106,7 @@
 
 清除网络环境：WSACleanup
 
-客户端：
+**客户端：**
 
 初始化网络环境：WSAStartup
 
