@@ -85,22 +85,35 @@
 服务端：
 
 网络环境初始化：WSAStartup
+
 创建服务器套接字：socket
+
 绑定本机IP和端口：bind
+
 监听客户端：listen
+
 等待客户端连接：accept
+
 发送消息：send
+
 接收消息：recv
+
 关闭socket：closesocket
+
 清除网络环境：WSACleanup
 
 客户端：
 
 初始化网络环境：WSAStartup
+
 创建套接字：socket
+
 连接服务器：connect
+
 发送数据：send
+
 接收数据：recv
+
 清理网络环境：WSACleanup
 
 ### 2.缓存问题
@@ -111,6 +124,7 @@
 
 ### 1.增加功能
 
+功能较为单一，可以增加其他功能
 
 
 
