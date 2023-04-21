@@ -14,6 +14,15 @@
 
 使用vscode连接MySQL数据库，进行合理的配置
 
+```
+//MySQL
+"-I",
+"C:\\Program Files\\MySQL\\MySQL Server 8.0\\include",
+"-L",
+"C:\\Program Files\\MySQL\\MySQL Server 8.0\\lib",
+"-lmysql",
+```
+
 ### 2.部署截图
 
 ![部署截图](https://github.com/imrewang/StudentManagementSystem/blob/main/screenshot/%E6%9C%8D%E5%8A%A1%E7%AB%AF%E9%83%A8%E7%BD%B2%E6%88%AA%E5%9B%BE.png?raw=true)
@@ -51,6 +60,12 @@
 这是典型的#生产者消费者模型
 
 通过创建多个线程，在开始时信号量为0
+
+### 5.线程分析
+
+startWork中运行两个线程。一个管理连接，一个处理事件：有事件来就遍历
+
+前面也创建了线程池，处理事件
 
 ## （五）改进方向
 
